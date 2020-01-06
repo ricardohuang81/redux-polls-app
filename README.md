@@ -1,3 +1,5 @@
+# React-Redux Polls App w/ Thunk, React-Redux-Loading, React-Router + Redux Dev Tools enabled
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -66,3 +68,4 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `yarn build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+# redux-polls-app
