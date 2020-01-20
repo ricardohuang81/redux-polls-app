@@ -9,6 +9,17 @@ let users = {
     },
     polls: ['loxhs1bqm25b708cmbf3g', 'vthrdm985a262al8qx3do']
   },
+  captain_marvel: {
+    id: 'captain_marvel',
+    name: 'Captain Marvel',
+    avatarURL: 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR3YbPLIYiY_01zvfzVi_FYO6dh6Q63Gt-uv31Y1sfwvAOwfCPJ',
+    answers: {
+      "xj352vofupe1dqz9emx13r": 'a',
+      "vthrdm985a262al8qx3do": 'd',
+      "6ni6ok3ym7mf1p33lnez": 'd'
+    },
+    polls: ['6ni6ok3ym7mf1p33lnez', 'xj352vofupe1dqz9emx13r'],
+  },
   doctor_manhattan: {
     id: 'doctor_manhattan',
     name: 'Doctor Manhattan',
@@ -21,17 +32,6 @@ let users = {
     },
     polls: ['8xf0y6ziyjabvozdd253nd', 'am8ehyc8byjqgar0jgpub9'],
   },
-  uchiha_itachi: {
-    id: 'uchiha_itachi',
-    name: 'Itachi Uchiha',
-    avatarURL: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeyzphTuCNlEF7R1wshNQomDl121EttVRR55BvBb_edeiyyZ6D&s',
-    answers: {
-      "xj352vofupe1dqz9emx13r": 'a',
-      "vthrdm985a262al8qx3do": 'd',
-      "6ni6ok3ym7mf1p33lnez": 'd'
-    },
-    polls: ['6ni6ok3ym7mf1p33lnez', 'xj352vofupe1dqz9emx13r'],
-  }
 }
 
 let polls = {
@@ -60,7 +60,7 @@ let polls = {
   "6ni6ok3ym7mf1p33lnez": {
     id: '6ni6ok3ym7mf1p33lnez',
     question: "How will we build UI's in 2020?",
-    author: 'uchiha_itachi',
+    author: 'captain_marvel',
     timestamp: 1468479767190,
     a: {
       text: 'Next.js',
@@ -76,7 +76,7 @@ let polls = {
     },
     d: {
       text: 'Gatsby.js',
-      votes: ['uchiha_itachi'],
+      votes: ['captain_marvel'],
     }
   },
   "am8ehyc8byjqgar0jgpub9": {
@@ -97,7 +97,7 @@ let polls = {
       votes: [],
     },
     d: {
-      text: 'Other',
+      text: 'Catch And Kill',
       votes: [],
     }
   },
@@ -142,17 +142,17 @@ let polls = {
     },
     d: {
       text: 'Other',
-      votes: ['uchiha_itachi'],
+      votes: ['captain_marvel'],
     }
   },
   "xj352vofupe1dqz9emx13r": {
     id: 'xj352vofupe1dqz9emx13r',
     question: "Who will win the election in 2020?",
-    author: 'uchiha_itachi',
+    author: 'captain_marvel',
     timestamp: 1493579767190,
     a: {
       text: 'Bernie Sanders',
-      votes: ['baby_yoda', 'uchiha_itachi'],
+      votes: ['baby_yoda', 'captain_marvel'],
     },
     b: {
       text: 'Donald Trump',
