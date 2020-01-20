@@ -1,4 +1,4 @@
-# React-Redux Polls App w/ Thunk, React-Redux-Loading, React-Router + Redux Dev Tools enabled; can answer, view current, and add new polls
+# React-Redux Polls App w/ Thunk, React-Redux-Loading, React-Router + Redux Dev Tools enabled; can answer polls, view unanswered or answered polls, see leaderboard, and add new polls
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
